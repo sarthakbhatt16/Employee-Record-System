@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MEAN CRUD</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="header clearfix">
+			<nav>
+			  <ul class="nav nav-pills pull-right">
+			    <li role="presentation" class="active"><a href="#/employees"><span class="glyphicon glyphicon-th-list"> </span> Employee List</a></li>
+			    <li role="presentation"><a href="#/employees/create"> 
+			    <span class="glyphicon glyphicon-plus"> </span>	Add New Employee</a></li>
+			  </ul>
+			</nav>
+			<h3 class="text-muted">Simple MEAN web Application using CRUD operation</h3>
+		</div>
+		<div ng-view></div>
+		
+		<footer class="footer well well-sm">
+		    <p>© Sarthak Bhatt</p>
+		</footer>
+
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+<script src="app.js"></script>
+<script src="controllers/controllers.js"></script>
+
+</body>
+</html>

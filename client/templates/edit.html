@@ -1,0 +1,34 @@
+<div class="panel panel-default" ng-init="showEmployee()">
+	<div class="panel-heading">
+	  <p class="panel-title"><span style="color:#5bc0de;" 
+class="glyphicon glyphicon-edit"> </span> Edit Employee</p>
+	</div>
+	<div class="panel-body">
+		<form ng-submit="updateEmployee()">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" ng-model="employee.name" value="employee.name">
+    </div>
+    <div class="form-group">
+      <label for="dept">Department:</label>
+      <input type="text" class="form-control" id="dept" ng-model="employee.dept" value="employee.dept">
+    </div>
+    <div class="form-group">
+      <label for="area">Location:</label>
+      <input type="text" class="form-control" id="area" ng-model="employee.area" value="employee.area">
+    </div>
+    <div class="form-group">
+      <label for="contact">Contact No. :</label>
+      <input type="text" class="form-control" id="contact" ng-model="employee.contact" value="employee.contact">
+      <div class="form-group">
+      <label for="status">Job Status :</label>
+      <input type="text" class="form-control" id="status" ng-model="employee.status" value="employee.status">
+      <div class="form-group">
+      <label for="salary">Salary :</label>
+      <input type="text" class="form-control" id="salary" ng-model="employee.salary" value="employee.salary">
+    </div>
+    <button type="submit" style="color:#5bc0de;" class="btn btn-default">Update</button>
+    <a href="#/employees" class="btn btn-default"> Cancel</a>
+</form>		
+    <div>
+<div>
