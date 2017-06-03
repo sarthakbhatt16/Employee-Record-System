@@ -1,6 +1,9 @@
 # Employee-record-system (MongoDb, Angular, Express, Node)
 Descriptive Guide TO MEAN Stack app Development
 
+# Demo
+ # https://employee-record-system.herokuapp.com/#/
+
 **Coursework Designed For UMBC, IS Departmet. **
 
 # Preview:
